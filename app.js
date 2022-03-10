@@ -9,7 +9,7 @@ server.listen(8081, ()=>{
 })
 
 server.get('/', (req, res) =>{
-    return res.send({message: "Jonas Mota Feitosa"})
+    return res.send({message: "Jonas Mota Feitosa teste"})
 })
 
 server.get('/pokemon/:id', async (req, res) =>{
